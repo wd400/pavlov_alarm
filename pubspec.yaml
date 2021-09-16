@@ -1,0 +1,57 @@
+name: pavlov_alarm
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.3
+  intl: ^0.17.0
+  android_alarm_manager: ^2.0.2
+  shared_preferences: ^2.0.7
+  url_launcher: ^6.0.10
+  flutter_local_notifications: ^8.2.0
+  flutter_local_notifications_platform_interface: ^4.0.1
+  timezone: ^0.8.0
+  rxdart: ^0.27.2
+  flutter_native_timezone: ^2.0.0
+  flutter_datetime_picker: ^1.5.1
+  vibration: ^1.7.4-nullsafety.0
+  audioplayers: ^0.20.1
+  future_progress_dialog: ^0.2.0
+  flutter_credit_card: ^2.0.0
+  stripe_payment: ^1.1.4
+  http: ^0.13.3
+  hive: ^2.0.4
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.3
+  flutter_picker: ^2.0.2
+  hive_generator: ^1.1.1
+  build_runner: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: JosefinSans
+      fonts:
+        - asset: assets/fonts/JosefinSans-Regular.ttf
+  assets:
+    - assets/sound1.wav
